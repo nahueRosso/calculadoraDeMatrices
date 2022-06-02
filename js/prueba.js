@@ -1,31 +1,24 @@
+let matriz = [[1,2,3,1,2],[4,5,6,1,2],[7,8,9,1,2],[4,5,6,1,2],[7,8,9,1,2]]
 
+//              [[1,2,3]]                   [ [0][0] ; [0][1] ; [0][2] ]
+//              [[4,5,6]]                   [ [1][0] ; [1][1] ; [1][2] ]
+//              [[7,8,9]]                   [ [2][0] ; [2][1] ; [2][2] ]
 
-// let suma = 0;
-
-// let multi = [[],[]];
-
-// let matriz = [[1,1],[1,1]];                                           
-
-// let matriz2 = [[1,8,1],[1,1,1]];
-
-
-
-// for (let x = 0; x < matriz.length; x++) { 
-
-//        for (let y = 0; y < matriz2[0].length; y++) {
-          
-//         for (let z = 0; z < matriz2.length; z++) {
-           
-//             suma = suma + (matriz[x][z] * matriz2[z][y]);
-             
-            
-//            }
-//            multi[x].push(suma)
-
-//            suma = 0
-//        }
+// for (let a = 0; a < matriz.length; a++) {
+    
 // }
 
-// console.log(multi);
+// let matriz1 = matriz.filter(x => x.length < 0)
+
+// console.log(hola(matriz1));
 
 
+let checkAdult = (age) => {
+    return age >= 18;
+}
+
+const ages = [32, 33, 16, 40];
+const result = ages.filter(checkAdult);
+
+
+console.log(result);

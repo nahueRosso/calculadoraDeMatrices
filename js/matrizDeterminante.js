@@ -14,7 +14,5 @@ let matrizDeterminante2x2 = (matriz) => {
     return resultadoFinal;
     
 }
-
-
-console.log(matrizDeterminante2x2([[2,2],[2,1]]));;
+matrizDeterminante2x2([[2,2],[2,1]]);;
 
